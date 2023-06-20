@@ -1,0 +1,57 @@
+@media screen and (min-width:776) {
+    
+}
+
+@media screen and (max-width:1440px) {
+    .menu-btn{
+        display: none;
+    }
+
+    .services2{
+        margin-top: 0 !important;
+    }
+
+    .taka{
+        margin-bottom: 15px;
+        
+    }
+
+    .supports{
+        margin-bottom: 15px;
+    }
+
+    
+    .img-comp-container{
+        margin-left: auto !important;
+        height: 200px !important;
+    }
+
+    .img-comp-img{
+        height: 100% !important;
+    }
+    
+    .img-comp-slider {
+        width: 60px !important;
+        height: 60px !important;
+        margin-top: 20px !important;
+    }
+
+
+    .pakage-content{
+        text-align: center !important;
+
+    }
+
+    .helpline-img{
+        margin-bottom: 20px;
+        margin-left: 50px !important;
+    }
+
+    .exp-mobile-img img{
+       width: 380px;
+       
+    }
+    
+    
+     
+}

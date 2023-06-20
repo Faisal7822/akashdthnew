@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AKASH Digital TV</title>
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- fevicon icon link  -->
+  <link rel="icon" href="./assets/img/favicon.png">
+  <!-- slick cdn  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- fontawsome link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <!-- responsive css -->
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <!-- font family -->
+  <link rel="stylesheet" href="https://cdnhost.akashbd.net/assets/fonts/fonts.css?v=5.0.7">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800,900">
+  <!-- custom css -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <!-- header-section start -->
+  <header>
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary px-3">
+            <a class="navbar-brand " href="#"><img class="logo" src="./assets/img/akash-logo-blue.png"
+                alt="akashdth"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#navbar-modal"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+              data-bs-dismiss="modal">
+              <input type="checkbox" name="toggle-menu" id="toggle-menu">
+              <label for="toggle-menu" type="button" class="toggle-btn">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+              </label>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu">
+                <li class="nav-item Home">
+                  <a class="nav-link " aria-current="page" href="#"><span class="lalbanu1 fs-6">(</span> Home <span
+                      class="lalbanu1 fs-6">)</span></a>
+                </li>
+                <li class="nav-item dropdown explore">
+                  <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="lalbanu6 fs-6">(</span> Explore <span class="lalbanu6 fs-6">)</span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Produtcs & Pakege</a></li>
+                    <li><a class="dropdown-item" href="#">New Produtcs and Offers</a></li>
+                    <li><a class="dropdown-item" href="#">Selfcare</a></li>
+                    <li><a class="dropdown-item" href="#">News & Events</a></li>
+                    <li><a class="dropdown-item" href="#">Advertisment</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown packs">
+                  <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="lalbanu2 fs-6">(</span> Packs & Channels <span class="lalbanu2 fs-6">)</span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">AKASH Standred</a></li>
+                    <li><a class="dropdown-item" href="#">AKASH Lite Plus</a></li>
+                    <li><a class="dropdown-item" href="#">AKASH Lite</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown support">
+                  <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="lalbanu3 fs-6">(</span> Support <span class="lalbanu3 fs-6">)</span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">User Tutorials</a></li>
+                    <li><a class="dropdown-item" href="#">How to Recharge</a></li>
+                    <li><a class="dropdown-item" href="#">Policies</a></li>
+                    <li><a class="dropdown-item" href="#">Store Locatore</a></li>
+                    <li><a class="dropdown-item" href="#">Useful Docs & Forms</a></li>
+                    <li><a class="dropdown-item" href="#">STB UI Software Download</a></li>
+                    <li><a class="dropdown-item" href="#">Prices & Charges</a></li>
+                    <li><a class="dropdown-item" href="#">PVR Channel Group</a></li>
+                    <li><a class="dropdown-item" href="#">FAQs</a></li>
+                    <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item buy">
+                  <a class="nav-link" href="#"><span class="lalbanu4 fs-6">(</span> <i
+                      class="fa-solid fa-cart-shopping"></i> <span>Buy</span><span class="lalbanu4 fs-6">)</span></a>
+                </li>
+                <li class="nav-item Selfcare">
+                  <a class="nav-link" href="#"><span class="lalbanu5 fs-6">(</span> Selfcare <span
+                      class="lalbanu5 fs-6">)</span></a>
+                </li>
+                <li class="menu-btn">
+                  <a href="https://scnv.io/ErNU?qr=1" target="_blank" class="nav-link nav-link-btn menu-modal-btn">
+                      MyAKASH
+                  </a>
+              </li>
+              </ul>
+            </div>
+          </nav>
+
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- header-section end -->
+  <!-- modal start -->
+  <div class="modal fade" id="navbar-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img class="logo" src="./assets/img/akash-logo-blue.png" alt="">
+        </div>
+        <div class="modal-body">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu">
+            <li class="nav-item ">
+              <a class="nav-link " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown explore">
+              <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Explore
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Produtcs & Pakege</a></li>
+                <li><a class="dropdown-item" href="#">New Produtcs and Offers</a></li>
+                <li><a class="dropdown-item" href="#">Selfcare</a></li>
+                <li><a class="dropdown-item" href="#">News & Events</a></li>
+                <li><a class="dropdown-item" href="#">Advertisment</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown packs">
+              <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Packs & Channels
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">AKASH Standred</a></li>
+                <li><a class="dropdown-item" href="#">AKASH Lite Plus</a></li>
+                <li><a class="dropdown-item" href="#">AKASH Lite</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown support">
+              <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Support
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">User Tutorials</a></li>
+                <li><a class="dropdown-item" href="#">How to Recharge</a></li>
+                <li><a class="dropdown-item" href="#">Policies</a></li>
+                <li><a class="dropdown-item" href="#">Store Locatore</a></li>
+                <li><a class="dropdown-item" href="#">Useful Docs & Forms</a></li>
+                <li><a class="dropdown-item" href="#">STB UI Software Download</a></li>
+                <li><a class="dropdown-item" href="#">Prices & Charges</a></li>
+                <li><a class="dropdown-item" href="#">PVR Channel Group</a></li>
+                <li><a class="dropdown-item" href="#">FAQs</a></li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item buy">
+              <a class="nav-link" href="#"><i
+                  class="fa-solid fa-cart-shopping"></i> <span>Buy</span></a>
+            </li>
+            <li class="nav-item Selfcare">
+              <a class="nav-link" href="#">Selfcare</a>
+            </li>
+            <a class="btn  myakash-btn ms-3" href="">MyAKASH</a>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary"><label for="toggle-menu"> My Akash</label> </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal end -->
+
+  <main>
+    <!-- banner-section start -->
+    <section>
+      <div class="container-fluid">
+        <div class="row slider">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators indicator">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/banner1.jpg" class="d-block w-100" alt="akashdth">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/banner2.jpg" class="d-block w-100" alt="akashdth">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/banner3.jpg" class="d-block w-100" alt="akashdth">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/banner4.jpg" class="d-block w-100" alt="akashdth">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/banner5.jpg" class="d-block w-100" alt="akashdth">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner-section end -->
+    
+    <!-- services section start-->
+    <section>
+      <div class="services  p-5 mx-5">
+        <div class="container-fluid">
+          <div class="row my-4">
+            <div class="col-md-4 ">
+              <div class="taka">
+                <img src="./assets/img/tk.png" alt="">
+                <a href=""><h5 class="mt-3">Recharge</h5></a>
+                <div class="overlay"></div>
+                <div class="overlay2"></div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="taka">
+                <img src="./assets/img/gift.png" alt="">
+                <a href=""><h5 class="mt-3">New Products/Offers</h5></a>
+                <div class="overlay"></div>
+                <div class="overlay2"></div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="taka">
+                <img src="./assets/img/shopping-cart.png" alt="">
+                <a href=""><h5 class="mt-3">Buy</h5></a>
+                <div class="overlay"></div>
+                <div class="overlay2"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="services2 ">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4 ">
+                <div class="taka">
+                  <img src="./assets/img/television.png" alt="">
+                  <a href=""><h5 class="mt-3">List of Channels</h5></a>
+                  <div class="overlay"></div>
+                  <div class="overlay2"></div>
+                </div>
+              </div>
+              <div class="col-md-4 ">
+                <div class="taka">
+                  <img src="./assets/img/hq-fascilities.png" alt="">
+                  <a href=""><h5 class="mt-3">Selfcare</h5></a>
+                  <div class="overlay"></div>
+                  <div class="overlay2"></div>
+                </div>
+              </div>
+              <div class="col-md-4 ">
+                <div class="taka">
+                  <img src="./assets/img/question-mark.png" alt="">
+                  <a href=""><h5 class="mt-3">FAQ</h5></a>
+                  <div class="overlay"></div>
+                  <div class="overlay2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services section end-->
+    <!-- akash team-section start -->
+    <section class="mb-5 p-5">
+      <div class="container-fluid ">
+        <div class="team text-center p-5">
+          <h2 class=" team-heading ">Why AKASH</h2>
+          <p class="my-5 ">More than just a connection, AKASH is here to redefine your TV viewing experience forever.
+            Don’t believe us? Dive into the exciting world of AKASH and see for yourself!</p>
+        </div>
+        <div class="row service me-auto">
+          <div class=" supports shadow" data-aos="fade-up" data-aos-duration="4000">
+            <div class="card text-center" style="width: 245px; height: 450px;">
+              <img src="./assets/img/ser1.png" class="card-img-top img-fluid me-5" alt="akashdth">
+              <div class="card-body my-4">
+                <h5 class="card-title ">Great Quality</h5>
+                <h2 class="card-text fw-bold text-white">VIEWING</h2>
+                <p class="mt-3">Enjoy an unparalleled viewing experience with real HD quality picture and sound.</p>
+              </div>
+              <div class="card-overlay">
+                <img class="img-fluid ms-auto" src="./assets/img/great-quality-viewing-1.png"
+                  style="width: 120px; height: 120px;" alt="">
+                <h3 class=" mt-5">Great Quality</h3>
+                <h2 class="fw-bold ">VIEWING</h2>
+              </div>
+            </div>
+          </div>
+          <div class=" supports shadow" data-aos="fade-up" data-aos-duration="2000">
+            <div class="card text-center" style="width: 245px; height: 450px;">
+              <img src="./assets/img/ser2.png" class="card-img-top img-fluid me-5" alt="akashdth">
+              <div class="card-body my-4">
+                <h5 class="card-title ">Exciting World of</h5>
+                <h2 class="card-text fw-bold text-white ">AKASH</h2>
+                <p class="mt-3">Rejoice with a wide range of popular TV channels to keep you hooked!</p>
+              </div>
+              <div class="card-overlay">
+                <img class="img-fluid ms-auto" src="./assets/img/akash-dth-1.png" style="width: 120px; height: 120px;"
+                  alt="">
+                <h3 class=" mt-5">Exciting World of</h3>
+                <h2 class="fw-bold">AKASH</h2>
+              </div>
+            </div>
+          </div>
+          <div class="supports shadow" data-aos="fade-up" data-aos-duration="1500">
+            <div class="card text-center" style="width: 245px; height: 450px;">
+              <img src="./assets/img/ser3.png" class="card-img-top img-fluid me-5" alt="akashdth">
+              <div class="card-body my-4">
+                <h5 class="card-title ">Professinal Customer</h5>
+                <h2 class="card-text fw-bold text-white">SUPPORT</h2>
+                <p class="mt-3">Make the most of our professional installation and after-sales service with our helpline catering to you 24/7.</p>
+              </div>
+              <div class="card-overlay">
+                <img class="img-fluid ms-auto" src="./assets/img/support-1.png" style="width: 120px; height: 120px;"
+                  alt="">
+                <h3 class=" mt-5">Professinal Customer</h3>
+                <h2 class="fw-bold">SUPPORT</h2>
+              </div>
+            </div>
+          </div>
+          <div class=" supports shadow" data-aos="fade-up" data-aos-duration="1000">
+            <div class="card text-center" style="width: 245px; height: 450px;">
+              <img src="./assets/img/ser4.png" class="card-img-top img-fluid me-5" alt="akashdth">
+              <div class="card-body my-4">
+                <h5 class="card-title ">Wide Range of</h5>
+                <h2 class="card-text fw-bold text-white">FEATURES</h2>
+                <p class="mt-3">Experience TV like never before with multiple recharge options, program guide, favourite channel listing, program reminder and parental control!</p>
+              </div>
+              <div class="card-overlay">
+                <img class="img-fluid ms-auto" src="./assets/img/wide-range-features-1.png"
+                  style="width: 120px; height: 120px;" alt="">
+                <h3 class=" mt-5">Wide Range of</h3>
+                <h2 class="fw-bold">FEATURES</h2>
+              </div>
+            </div>
+          </div>
+          <div class=" supports shadow" data-aos="fade-up" data-aos-duration="500">
+            <div class="card text-center" style="width: 245px; height: 450px;">
+              <img src="./assets/img/ser5.png" class="card-img-top img-fluid me-5" alt="akashdth">
+              <div class="card-body my-4">
+                <h5 class="card-title ">User Friendly</h5>
+                <h2 class="card-text fw-bold text-white">EXPERIENCE</h2>
+                <p class="mt-3">Our compact and light-weight HD Set Top Box and attractive user interface will surely keep you ahead of the game! </p>
+              </div>
+              <div class="card-overlay">
+                <img class="img-fluid ms-auto" src="./assets/img/user-friendly-experience-1.png"
+                  style="width: 120px; height: 120px;" alt="">
+                <h3 class=" mt-5">User Friendly</h3>
+                <h2 class="fw-bold">EXPERIENCE</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akash team-section end -->
+    <!-- gellary-section start -->
+    <section class="p-5 ">
+      <div class=" container-fluid ">
+        <div class="row ">
+          <div class=" img-comp-container ">
+            <div class="curb-img">
+              <img class="img-fluid" src="./assets/img/seperator-curver-bottom-white.png" alt="curb">
+            </div>
+            <div class="curb-img2">
+              <img class="img-fluid" src="./assets/img/seperator-curver-top-white.png" alt="curb">
+            </div>
+            <div class="HD-section">
+              <h3 class="fw-bold">What is True HD
+                in AKASH?</h3>
+              <div class="HD-content mx-auto">
+                <div class="img-1">
+                  <img src="./assets/img/hq-image.png" style="width: 50px;height:60px;" alt="">
+                  <p class="mt-4">5x Sharper
+                    Picture Quality</p>
+                </div>
+                <div class="img-2">
+                  <img src="./assets/img/sound-box-icon.png" style="width: 60px;height:60px;" alt="">
+                  <p class="mt-4">Digital
+                    Quality Sound</p>
+                </div>
+              </div>
+              <h4 class="fw-bold text-danger">Slide to experience
+                the difference!</h4>
+            </div>
+            <figure class="cd-image-container">
+              <img src="./assets/img/picture-quality-bg.jpg" alt="Original Image">
+              <span class="cd-image-label" data-type="original"></span>
+          
+              <div class="cd-resize-img"> <!-- the resizable image on top -->
+                <img src="./assets/img/picture-quality-overlay.jpg" alt="Modified Image">
+                <span class="cd-image-label" data-type="modified"></span>
+              </div>
+              <span class="cd-handle"></span>
+          </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- gellary-section end -->
+    <!-- pakage-section start -->
+    <section class="pakage-section">
+      <div class="container-fluid text-center mt-5 p-5">
+        <div class="team Package-container">
+          <h2 class="">Excited much? <br><span class="title-text">You will love our Products & Packages.</span></h2>
+        </div>
+        <div class="row Pakege-bloc">
+          <div class="col-md-8 pakage-content text-start">
+            <h2 class="title-text">Akash Basic</h2>
+            <i class="fa-solid fa-circle-check mb-2"></i> <span class="title-p">128+ channels incliding55+ HD</span>
+            <h3 class="Availe fw-bold mb-2">Availe Akash connectuon at</h3>
+            <h1 class="fw-bold mb-3">BDT 4,899!</h1>
+            <a class="btn btn-lg" href="">Buy Now</a>
+          </div>
+          <div class="col-md-4 Package-img ">
+            <img class="img-fluid" src="./assets/img/akash_thumb.png" style="width: 280px; height: 400px;" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- pakage-section end -->
+    <!-- helpline-section start -->
+    <section class="helpline-section">
+      <div class="container-fluid text-center ">
+        <div class="team">
+          <h2 class="fw-bold ">So what are you waiting for?</h2>
+          <p class="mt-4">Get in touch with us today and rest assured, your TV will never be the same again!</p>
+        </div>
+        <div class="row  support-center ">
+          <div class="col-md-6 helpline-img p-5 " data-aos="zoom-in">
+            <img class="" src="./assets/img/support-icon.png"  alt="">
+            <p class="my-4">Want to know more about AKASH?</p>
+            <h2 class="">Call our 24/7 active helpline <br> 16442.</h2>
+          </div>
+          <div class="col-md-6 helpline-img p-5" data-aos="zoom-in">
+            <img class="" src="./assets/img/signup-icon.png"  alt="">
+            <p class="my-4">Intersted to by AKASH connection?</p>
+            <h2 class="">Place your order <br> today!</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- helpline-section end -->
+    <!-- experience-section start -->
+    <section>
+      <div class="container-fluid experience">
+        <div class="row experience-content-full">
+          <div class="col-md-7 exp-content " data-aos="fade-right" data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+            <h3 class="">Make Your AKASH Experience VERY EASY</h3>
+            <p class="">AKASH Digital TV unveils an exciting new digital gateway with MyAKASH App.<br/>
+              One App to handle all your selfcare needs.</p>
+            <a class="btn my-3" href="">Learn More</a>
+            <h3 class="">Download MyAKASH App
+            </h3>
+            <div class="experience-imges d-flex">
+              <div class="exp-img">
+                <div class="">
+                  <img src="./assets/img/google-play-store-badge.png" style="width: 160px;height: 60px;" alt="">
+                </div>
+                <div class="">
+                  <img class="" src="./assets/img/app-store-badge.png" style="width: 160px;height: 60px;" alt="">
+                </div>
+              </div>
+              <div class="exp-img">
+                <img class="mt-2 ms-2 bg-light p-2 rounded" src="./assets/img/qr-code.png"
+                  style="width: 110px;height: 110px;" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 exp-mobile-img" data-aos="zoom-in">
+            <img src="./assets/img/mobile.png" style="width: 450px;height: 350px;" alt="">
+          </div>
+        </div>
+        <div class="curb-img3">
+          <img class="img-fluid" src="./assets/img/seperator-curver-top-white.png" alt="curb">
+        </div>
+      </div>
+    </section>
+    <!-- experience-section end -->
+  </main>
+  <!-- footer-section start -->
+  <footer>
+    <section class="footer-section p-5 mt-5">
+      <div class="container-fluid footer-quick-link">
+        <div class="row">
+          <div class="col-md-6 footer-blog p-5">
+            <img class="footer-logo" src="./assets/img/akash-logo-blue.png" alt="">
+            <p class="my-4 text-start ">AKASH is the first ever Direct To Home (DTH) service launched in Bangladesh by BEXIMCO Communications Limited, with an aim to win the hearts of millions with its commitment to quality services that will revolutionize the entertainment industry in the country. Through DTH, as the name says, signals are directly received from the satellite by the dish installed at your premise. You will also need a set top box (STB) connected with your TV and a dish. Enhancing TV viewing experience for people is our top most priority and through continuous technological innovation, backed by our solid customer support, AKASH will redefine TV viewing experience like never before.</p>
+          </div>
+          <div class="col-md-3">
+            <div class="team2">
+              <h2 class=" text-start">QUICK LINKS</h2>
+              <div class="footer-content mt-4">
+                <div class="ql2">
+                  <i class="fa-solid fa-chevron-right fw-bold ql ql2"></i><span ><a class="ql ql2" href="">Liability
+                    Disclaimer</a></span>
+                </div>
+                <div class="ql2">
+                  <i class="fa-solid fa-chevron-right fw-bold ql ql2"></i><span class=""><a class="ql ql2" href="">Privacy & Cookies</a></span>
+                </div>
+                <div class="ql2">
+                  <i class="fa-solid fa-chevron-right fw-bold ql ql2"></i><span class=""><a class="ql ql2" href="">Channel List</a></span>
+                </div>
+                <div class="ql2">
+                  <i class="fa-solid fa-chevron-right fw-bold ql ql2"></i><span class=""><a class="ql ql2" href="">Subscription
+                    Agreement</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="team2">
+              <h2 class="fw-bold text-start">CONTACT US</h2>
+              <div class="contact mt-3">
+                <div class="contact-number">
+                  <i class="fa-solid fa-headset"></i><span><a class="fw-bold" href="">16442, 09609999000</a></span>
+                </div>
+                <div class="contact-mail">
+                  <i class="fa-solid fa-envelope"></i><span><a class="fw-bold" href="">support@akashdth.com</a></span>
+                </div>
+              </div>
+              <h3 class="mt-3 ">Follow Us</h3> <br>
+              <div class="social-media">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="hr">
+    <section class="footer-end">
+      <div class="container text-center mt-4">
+        <div class="row">
+          <div class="col-md-12 copy-rit">
+            <p>2023 © All rights reserved. <a class="fw-bold beximco" href="">Beximco Communications Limited.</a> </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <div class="chatbox" data-aos="fade-up" data-aos-duration="3000"><a href=""><i
+        class="fa-brands fa-facebook-messenger fa-2x"></i></a></div>
+  <!-- footer-section end -->
+  <!-- comparison Image js -->
+  <script src="./assets/js/jquery.mobile.custom.min.js"></script>
+  <script src="./assets/js/jquery-2.1.1.js"></script>
+  <!-- AOS js -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- slick slider cdn  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9  +SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+  <!-- jquary cdn -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <!--bootstrap js  -->
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.autoplay').carousel({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 500,
+    });
+    })
+
+  </script>
+  <!-- custom js -->
+  <script src="./assets/js/custom.js"></script>
+  <script>
+    initComparisons();
+  </script>
+</body>
+
+</html>
